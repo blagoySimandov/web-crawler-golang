@@ -25,7 +25,7 @@ type Recipe struct {
 
 func main() {
 	//Mongo
-	client, err := mongo.NewClient(options.Client().ApplyURI("mongodb+srv://user1:dogdogdog333@cluster0.xojje.gcp.mongodb.net/recipesDB?retryWrites=true&w=majority"))
+	client, err := mongo.NewClient(options.Client().ApplyURI("mongodb+srv://user1:betThisaintthepasswordyougithubbot@cluster0.xojje.gcp.mongodb.net/recipesDB?retryWrites=true&w=majority"))
 	if err != nil {
 		log.Fatal(err)
 	}
